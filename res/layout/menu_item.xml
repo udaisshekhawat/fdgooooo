@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+   >
+
+    <LinearLayout
+        android:id="@+id/menuItemLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+       
+        android:layout_marginLeft="10dp"
+      
+        android:weightSum="1" >
+
+        <TextView
+            android:id="@+id/menutitle"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_weight="0.6"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="Title"
+            android:textAppearance="@style/MenuDisplyItemStyle" />
+
+        <TextView
+            android:id="@+id/itemrate"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginTop="3dp"
+            android:layout_weight="0.3"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="00.00"
+            android:textAppearance="@style/MenuDisplyItemStyle" />
+
+        <ImageView
+            android:id="@+id/nextArrow"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginRight="5dp"
+            android:layout_weight="0.1"
+            android:src="@drawable/arrow_gray_right"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/downArrow"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginRight="5dp"
+            android:layout_weight="0.1"
+            android:src="@drawable/arrow_gray_right"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/menuLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/menuItemLayout"
+        android:layout_marginTop="1dp"
+        android:visibility="visible"
+        android:weightSum="1" >
+
+        <ImageView
+            android:id="@+id/add"
+            android:layout_width="0dip"
+            android:layout_height="30dp"
+            android:layout_weight="0.3"
+            android:src="@drawable/menu_additem" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="0dip"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_weight="0.4"
+            android:background="@color/COLOR_WHITE"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="0"
+            android:textColor="@color/COLOR_BLACK"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:id="@+id/remove"
+            android:layout_width="0dip"
+            android:layout_height="30dp"
+            android:layout_weight="0.3"
+            android:src="@drawable/menu_removeitem" />
+    </LinearLayout>
+
+</RelativeLayout>

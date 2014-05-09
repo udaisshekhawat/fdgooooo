@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/COLOR_BRAND">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:padding="20dp"
+            android:src="@drawable/logosmall" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/logo"
+            android:layout_centerHorizontal="true"
+            android:padding="20dp" >
+
+            <LinearLayout
+                android:id="@+id/dashboard1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true" >
+
+                <LinearLayout
+                    android:id="@+id/dineinLayout"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:background="@drawable/dinein_tile_home"
+                    android:onClick="onClickDineinLayout">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/takeawayLayout"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:background="@drawable/delivery_tile_home"
+                    android:onClick="onClickTakeawayLayout">
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dashboard1"
+                android:layout_centerHorizontal="true" >
+
+                <LinearLayout
+                    android:id="@+id/rewardsLayout"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:background="@drawable/rewards_tile_home"
+                    android:onClick="onClickRewardsLayout">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/searchLayout"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:background="@drawable/search_tile_home"
+                    android:onClick="onClickSearchLayout">
+
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

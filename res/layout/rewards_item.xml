@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/COLOR_TRANSPARENT"
+   
+    >
+<RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="80dp"
+    android:gravity="center_vertical"
+     android:layout_marginLeft="18dp"
+    >
+
+    <TextView
+        android:id="@+id/rewardstitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="res 1"
+        android:textAppearance="@style/MenusubItemStyle" />
+ <TextView
+        android:id="@+id/itempoints"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rewardstitle"
+        android:layout_marginTop="2dp"
+        android:text="3000"
+        android:textAppearance="@style/MenupriceDisplyItemStyle" />
+    
+</RelativeLayout>
+</RelativeLayout>

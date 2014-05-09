@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, Foodango!</string>
+    <string name="app_name">Foodango</string>
+    <string name="msg_loading">Loading</string>
+    <string name="network_not_found">Network not found </string>
+    <string name="menu">Menu</string>
+    <string name="askforbill">My Bill</string>
+    <string name="btn_askforbill">Ask for Bill</string>
+    <string name="netamtlbl">Net Amount</string>
+     <string name="login_txt">Login</string>
+     <string name="fb_login_txt">Login with Facebook</string>
+     <string name="plus_login_txt">Login with Google +</string>
+    <string name="menu_subtitle">"View categories &amp; \nplace order"</string>
+    <string name="myorder">My Order</string>
+    <string name="myorder_subtitle">"View my recent order"</string>
+    <string name="need">Need Help?</string>
+    <string name="need_subtitle">"Call a waiter for assistance"</string>
+    <string name="time">Time to leave?</string>
+    <string name="time_subtitle">"Ask for bill"</string>
+    <string name="rewards">Rewards</string>
+    <string name="rewards_subtitle">"View &amp; redeem points"</string>
+    <string name="feedback">Feedback</string>
+    <string name="feedback_subtitle">"Have a say? Say it here."</string>
+    <string name="points_earned">Points Earned</string>
+    <string name="lbl_username">Username</string>
+    <string name="lbl_password">Password</string>
+    <string name="lbl_email">Email</string>
+    <string name="btn_login">Login</string>
+    <string name="title_vip_manage_profile">MANAGE PROFILE</string>
+    <string name="title_vip_manage_playlist">MANAGE PLAYLIST</string>
+    <string name="hint_username">&#160;&#160;&#160;Enter your email id or phone</string>
+    <string name="hint_password">Please enter password</string>
+    <string name="hint_firstname">First name</string>
+    <string name="hint_lastname">Last name</string>
+    <string name="hint_mailid">Email address</string>
+    <string name="hint_vipid">Vip Id</string>
+    <string name="image_desc">image</string>
+    <string name="title_section1">Starters</string>
+    <string name="title_section2">Main Course</string>
+    <string name="title_section3">Desserts</string>
+    <string name="applicationId">526353384094911</string>
+ <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="fragment_main">Main fragment</string>
+    <string name="fragment_one">Fragment one</string>
+    <string name="fragment_two">Fragment two</string>
+    <string name="fragment_three">Fragment three</string>
+</resources>

@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg" >
+
+    <RelativeLayout
+        android:id="@+id/rewards"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical|center_horizontal" >
+
+        <ImageView
+            android:id="@+id/home_img"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/menu_icon" />
+
+        <TextView
+            android:id="@+id/rewards_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/rewards"
+            android:textAppearance="@style/MenuItemStyle" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/points"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_below="@id/rewards"
+        android:background="@drawable/rewards_yellowbg"
+        android:gravity="center_vertical|center_horizontal" >
+
+        <TextView
+            android:id="@+id/points_lbl"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:gravity="left|center_vertical"
+            android:text="@string/points_earned"
+            android:textAppearance="@style/EditLblStyle"
+             />
+
+        <TextView
+            android:id="@+id/points_value"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:gravity="right|center_vertical"
+            android:text="3500"
+            android:textAppearance="@style/EditTextStyle" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/ListViewId"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:background="@color/COLOR_TRANSPARENT"
+         
+        android:layout_below="@id/points" />
+
+</RelativeLayout>

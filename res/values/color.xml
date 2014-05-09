@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<color name="COLOR_BG">#b4030d</color>
+	<color name="COLOR_SUBTEXT">#4f5969</color>
+	<color name="COLOR_BLACK">#000000</color>
+	<color name="COLOR_WHITE">#FFFFFF</color>
+	<color name="COLOR_BUTTONTEXT">#cc7b6b</color>
+	<color name="COLOR_LINE">#a8abad</color>
+	<color name="COLOR_LIGHTBLUE">#67799f</color>
+	<color name="COLOR_GRAY">#C0C0C0</color>
+	<color name="COLOR_LIGHT_GRAY">#bebebe</color>
+	<color name="COLOR_DARKER_LIGHT_BLUE">#00a2e8</color>
+	<color name="COLOR_TRANSPARENT">#55000000</color>
+	<color name="COLOR_LIST_DARK">#4A4A4A</color>
+    <color name="COLOR_LIST_LIGHT">#3B3B3B</color>
+    <color name="COLOR_YELLOWORANGE">#DAA520</color>
+    <color name="COLOR_BLUE">#0000FF</color>
+     <color name="COLOR_TITLE_SUB_TITLE">#003366</color>
+<color name="grid_background">#FF909090</color>
+<color name="cell_empty">#FF993311</color>
+<color name="cell_filled">#FFA99033</color>
+<color name="cell_empty_hover">#ff00ff00</color>
+<color name="cell_filled_hover">#ffaadddd</color>
+<color name="red">#ffff0000</color>
+<color name="green">#ff00ff00</color>
+<color name="COLOR_MEGENTHA">#CF71AF</color>
+<color name="drop_target_color1">#FF993311</color>
+<color name="drop_target_color2">#FFA99033</color>
+<color name="drop_target_enabled">#FF009933</color>
+<color name="drop_target_disabled">#FFdddddd</color>
+<color name="COLOR_BRAND">#6A2E57</color>
+</resources>
